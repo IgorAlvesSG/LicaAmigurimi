@@ -287,6 +287,9 @@ header{
     width: 350px;
     height: 450px;
   }
+  .item{
+    height: 550px;
+  }
 
 #footer{
     display: flex;
