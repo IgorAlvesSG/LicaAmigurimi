@@ -16,11 +16,13 @@ header{
     margin: auto;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Dongle', sans-serif;
 }
 .title{
     color: #faeba7;
     width: 40%;
     margin-left: 10px;
+    font-family: 'Dongle', sans-serif;
 }
 .input{
     position: relative;
@@ -83,8 +85,9 @@ header{
     top: 30px;
     left: 60px;
 }
-.info_de_vendas h2{
+/*.info_de_vendas h2{
     position: relative;
+    flex-direction: row;
     left: 160px;
     bottom: 16.4px;
 }
@@ -92,6 +95,18 @@ header{
     position: relative;
     left: 160px;
     bottom: 16.6px;
+}*/
+.cartoes1{
+    position: relative;
+    width: 20%;
+    left: 165px;
+    bottom: 17px;
+}
+.cartoes2{
+    position: relative;
+    width: 20%;
+    left: 165px;
+    bottom: 20px;
 }
 .selo{
     position: relative;
