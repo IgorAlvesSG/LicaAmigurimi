@@ -69,9 +69,14 @@
   .promocao {
     position: relative;
     width: 100%;
-    height: 350px;
+    height: 400px;
     background-color: antiquewhite;
   }
+   .promocao2{
+    position: relative;
+    height: 500px;
+    width: 100%;
+  } 
   .info_de_vendas {
     position: relative;
     background-color: #55cbcd;
