@@ -60,17 +60,21 @@
     display: flex;
   }
   .qualidade{
-    position: relative;
-    width: 100%;
-    height: 500px;
-    }
-  .imagem{
-    position: relative;
-    width: 90%;
-    height: 460px;
-    display: flex;
-    align-items: center;
+   position: relative;
+   width: 100%;
+   height: 550px;
+   display: flex;
+   align-items: center;
+   padding-left: 90px;
+   background-color: #cd55cd;
+   
   }
+   .qualidade h2{
+    position: relative;
+    left: 650px;
+    padding-bottom: 500px;
+  }
+
   .menuzinho {
     background-color: #55cbcd;
     flex-direction: row;
@@ -107,6 +111,7 @@
     top: 30px;
     left: 60px;
   }
+
   /*.info_de_vendas h2{
       position: relative;
       flex-direction: row;
@@ -210,7 +215,7 @@
     width: 70%;
     height: 350px;
     margin: 4px;
-    border: #e72dce solid 2px;
+    
     flex-direction: row;
     top: 40px;
     margin: 1%;
@@ -220,6 +225,8 @@
     position: relative;
     width: 100%;
     height: 100%;
+    right: 50px;
+    border: #e72dce solid 2px;
   }
   .ultimoslancamentos {
     position: relative;
@@ -227,9 +234,10 @@
     text-align: center;
     justify-content: center;
     width: 100%;
-    height: 90px;
+    height: 150px;
     text-decoration: none;
     text-align: center;
+    background-color: #5573cd;
     color: #fffb00;
     font-size: 40px;
 
@@ -237,112 +245,9 @@
   .ultimoslancamentos h1{
     position: relative;
     color: #faeba7;
-    background-color: #5573cd;
+    bottom: 40px    ;
   }
-  /*.orixas{
-      position: relative;
-      width: 100%;
-      height: 1800px;
-      background-color:#5573cd;
-     /* background-image: url(/homepage/imagens/ursinhos.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-  }
-  .orixas div{
-      position: relative;
-      width: 270px;
-      height: 500px;
-      background-color: #e72dce;
-      display: flex;
-      flex-direction: row;
-      float: left;
-      margin-left: 80px;
-      right: 15px;
-      border: 2px solid #e72dce;
-      margin-top: 15px;
-      border-radius: 10px;
-  }
-  .orixas img{
-      width: 100%;
-      height: 70%;
-      border-radius: 10px;
-  }
-  .ogum{
-      position: relative;
-      padding-top: 350px;
-      right: 200px;
-      font: 1em sans-serif;
-      font-size: 20px;
-  }*/
-  /* .wrapper {
-      display: grid;
-      grid-template-columns: repeat(3, 100%);
-      overflow: hidden;
-      scroll-behavior: smooth;
-      background-color: #5573cd;
-    }
-  .assa{
-      position: relative;
-      font-family: 'Dongle', sans-serif;
-  }
-    
-    .wrapper section {
-      width: 100%;
-      position: relative;
-      display: grid;
-      grid-template-columns: repeat(5, auto);
-      font-family: 'Dongle', sans-serif;
-      margin: 20px 0;
-    }
-    
-    .wrapper section .item {
-      padding: 0 2px;
-      transition: 250ms all;
-    }
-    
-    .wrapper section .item:hover {
-      margin: 0 40px;
-      transform: scale(1.2);
-    }
-    
-    .wrapper section a {
-      position: absolute;
-      color: #fff;
-      text-decoration: none;
-      font-size: 6em;
-      width: 80px;
-      padding: 20px;
-      text-align: center;
-      z-index: 1;
-    }
-    
-    .wrapper section a:nth-of-type(1) {
-      top: 0;
-      bottom: 0;
-      left: 0;
-      
-    }
-    
-    .wrapper section a:nth-of-type(2) {
-      top: 0;
-      bottom: 0;
-      right: 0;
   
-  }
-    
-  @media only screen and (max-width: 600px) {
-      a.arrow__btn {
-      cursor: pointer;
-      display: none;
-  }
-  }
-  .santos{
-     width: 350px;
-     height: 450px;
-  }
-  .item{
-     height: 550px;
-  } */
   
   h1 {
     text-align: center;
