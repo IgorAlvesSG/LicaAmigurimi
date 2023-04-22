@@ -62,8 +62,14 @@
   .qualidade{
     position: relative;
     width: 100%;
-    height: 100px;
-    background-color: #ff176c;
+    height: 500px;
+    }
+  .imagem{
+    position: relative;
+    width: 90%;
+    height: 460px;
+    display: flex;
+    align-items: center;
   }
   .menuzinho {
     background-color: #55cbcd;
@@ -224,12 +230,15 @@
     height: 90px;
     text-decoration: none;
     text-align: center;
-    background-color: #5573cd;
     color: #fffb00;
     font-size: 40px;
-    font-family: "Dongle", sans-serif;
+
   }
-  
+  .ultimoslancamentos h1{
+    position: relative;
+    color: #faeba7;
+    background-color: #5573cd;
+  }
   /*.orixas{
       position: relative;
       width: 100%;
@@ -350,13 +359,21 @@
     padding-top: 80px;
     padding-bottom: 40px;
     max-width: 100%;
-    height: 550px;
+    height: 600px;
     justify-content: center;
     margin: 0 auto;
     background-color: #55cbcd;
   }
   .container img {
     height: 350px;
+  }
+  .container button{
+    align-items: center;
+    justify-content:center ;
+    border-radius: 20px;
+    height: 25px;
+    color: #fff;
+    background-color: #e72dce;
   }
   
   .gallery-wrapper {
@@ -424,27 +441,6 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
-  
-  .cyan {
-    background: cyan;
-  }
-  
-  .deeppink {
-    background: deeppink;
-  }
-  
-  .turquoise {
-    background: turquoise;
-  }
-  
-  .darkblue {
-    background: darkblue;
-  }
-  
-  .purple {
-    background: purple;
-  }
-  
   #footer {
     display: flex;
     justify-content: space-around;
@@ -474,6 +470,8 @@
     text-transform: uppercase;
     margin-top: 10px;
     transition: 0.3s;
+    text-decoration: none;
+    color: #000;
   }
   
   .infoFooter a:hover {
@@ -481,6 +479,7 @@
     opacity: 1;
     font-weight: 700;
     border-bottom: 1px solid #ff176c;
+    
   }
   
   .infoFooter div div {
@@ -499,6 +498,7 @@
   .sociais {
     display: flex;
     gap: 20px;
+    padding-top: 40px;
   }
   
   .sociais a {
